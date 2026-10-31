@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZeroTrust – sikkerhet som utgangspunkt, ikke tillegg</title>
+  <meta name="description" content="Designkonsept for en B2B-leverandør av sikkerhetstjenester: gjennomgang av nettside, e-post, tilganger og rutiner – med tydelig omfang og skriftlig rapport.">
+  <meta name="color-scheme" content="dark">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#hovedinnhold">Hopp til innhold</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="/"><span aria-hidden="true">[</span>ZeroTrust<span aria-hidden="true">]</span></a>
+      <nav aria-label="Hovedmeny">
+        <a href="#tjenester">Tjenester</a>
+        <a href="#omfang">Omfang</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="hovedinnhold">
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">B2B sikkerhetsgjennomgang</p>
+        <h1>Sikkerhet først. Alltid.</h1>
+        <p class="lead">Vi går gjennom oppsettet dere har i dag, forklarer hva som faktisk er en risiko, og skriver ned hva som bør gjøres først – i den rekkefølgen det haster.</p>
+        <a class="button" href="#kontakt">Be om en innledende samtale</a>
+      </div>
+    </section>
+
+    <section id="tjenester" class="section">
+      <div class="wrap">
+        <h2>Tjenester</h2>
+        <p class="section-lead">Avgrensede gjennomganger. Ikke en full penetrasjonstest – det er et eget oppdrag.</p>
+
+        <div class="grid">
+          <article class="card">
+            <p class="card-num">01</p>
+            <h3>Nettside og domene</h3>
+            <p>Oppdateringer, sertifikater, synlige svakheter og hvordan domenet er satt opp.</p>
+          </article>
+          <article class="card">
+            <p class="card-num">02</p>
+            <h3>E-post og innlogging</h3>
+            <p>SPF, DKIM og DMARC, hvem som har tilgang, og hvor det mangler et ekstra steg ved innlogging.</p>
+          </article>
+          <article class="card">
+            <p class="card-num">03</p>
+            <h3>Sikkerhetskopier</h3>
+            <p>Hva som kopieres, hvor det ligger, og om dere faktisk får det tilbake når det trengs.</p>
+          </article>
+          <article class="card">
+            <p class="card-num">04</p>
+            <h3>Rutiner</h3>
+            <p>Hva ansatte gjør ved en mistenkelig e-post, ved ansettelse og ved slutt.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="omfang" class="section alt">
+      <div class="wrap">
+        <h2>Hva dere får – og hva dere ikke får</h2>
+        <div class="two-col">
+          <div>
+            <h3>Dere får</h3>
+            <ul class="check">
+              <li>Skriftlig rapport med funn sortert etter alvorlighet</li>
+              <li>Konkrete tiltak, ikke bare problemer</li>
+              <li>Et anslag på innsats per tiltak</li>
+              <li>En samtale der vi forklarer hvert funn i klartekst</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Dere får ikke</h3>
+            <ul class="cross">
+              <li>Garanti mot innbrudd – det finnes ikke</li>
+              <li>En full penetrasjonstest uten eget oppdrag</li>
+              <li>Endringer utført uten skriftlig avtale</li>
+              <li>Passord eller engangskoder – vi ber aldri om det</li>
+            </ul>
+          </div>
+        </div>
+        <p class="note">Designkonsept. Innhold, tjenestebeskrivelser og tall er illustrative. Siden er ikke en operativ virksomhet og selger ingen tjenester.</p>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section">
+      <div class="wrap">
+        <h2>Kontakt</h2>
+        <p class="section-lead">Fortell kort om bedriften og hva dere bruker i dag. Vi svarer innen to arbeidsdager.</p>
+        <p class="contact-line">E-post: <span class="placeholder">[settes inn før publisering]</span></p>
+        <p class="contact-line">Sted: Bergen, Norge – oppdrag også digitalt</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="aar">2026</span> ZeroTrust – designkonsept</p>
+      <p><a href="#hovedinnhold">Til toppen</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('aar').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
